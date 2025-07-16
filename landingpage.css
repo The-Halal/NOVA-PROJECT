@@ -8,6 +8,94 @@
 
 
 header{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: #568B56;
+}
+
+.nav-links{
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.shopsy-logo{
+    text-decoration: none;
+}
+.shopsy{
+    font-size: 1.6em;
+    font-style: italic;
+    color: #122231;
+}
+
+.menu-lists{
+    display: flex;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.menu-lists li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.menu-lists li a:hover{
+    color: #122231;
+}
+.btn-icons{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.fa-cart-shopping{
+    color: white;
+    font-size: 1.4em;
+}
+
+.signup{
+    text-decoration: none;
+    background-color: #122231;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 16px;
+    color: white;
+    font-style: 1.2em;
+    font-weight: 600;
+}
+
+.signup:hover{
+    background-color: white;
+    color: #122231;
+}
+.fa-bars{
+    color: white;
+    font-size: 1.4em;
+    visibility: hidden;
+}
+
+
+/* HEADER-MEDIA QUERY */
+
+@media(max-width: 886px){
+    .nav-links{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .menu-lists{
+        display: none;
+    }
+
+    .signup{
+        display: none;
+    }
+
+    .fa-bars{
+        visibility: visible;
+    }
 }
