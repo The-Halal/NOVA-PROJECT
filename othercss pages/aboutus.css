@@ -314,3 +314,83 @@ header{
         margin-right: 10px;
     }
 }
+
+
+/* SECT-3 */
+
+.sect-3{
+    background-color: #FAFAFC;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.which-pods{
+    width: 50%;
+    margin: auto;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1D1D1F;
+}
+
+.pods-wrapper{
+    /* margin-top: 20px; */
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+
+.pod{
+    /* border: 2px solid blue; */
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.airpods1{
+    margin-top:80px;
+}
+
+.airpods-pro2{
+    margin-top: 4px;
+}
+
+.airpods-black{
+    margin-top: 10px;
+}
+.pod-text{
+    margin-top: 40px;
+      color: #1D1D1F;
+}
+
+.pod-text .one h4{
+    margin-top: 20px;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.pod-text span{
+    font-size: 1em;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.pod-text p{
+    font-size: .8em;
+}
+.pod-buy{
+    padding: 4px 14px;
+    background-color: #0076DF;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.pod-more{
+    text-decoration: none;
+    color: #0076DF;
+}
