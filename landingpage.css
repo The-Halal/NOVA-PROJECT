@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;   
+}
+
+
+header{
+    border: 2px solid red;
+    background-color: #568B56;
+}
