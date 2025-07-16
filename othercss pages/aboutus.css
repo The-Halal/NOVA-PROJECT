@@ -105,6 +105,7 @@ header{
 .sect-1{
     background-color: #FAFAFC;
     border: 2px solid black;
+    margin-bottom: 20px;
 }
 
 .products-wrapper{
@@ -166,4 +167,96 @@ header{
         width: 100%;
         font-size: .8em;
     }
+}
+
+
+/* SECT-2 */
+
+.sect-2{
+    background-color: #FAFAFC;
+    padding: 30px;
+}
+
+.sect-2-wrap{
+    height: 100vh;
+    padding: 20px 60px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+.buy-airpod-wrap{
+    padding: 20px;
+    width:90%;
+    height: 40%;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+
+.max-logo{
+    width: 100%
+}
+
+.airpod{
+    position: absolute;
+    top: -220px;
+    right: 400px;
+}
+.stardust{
+    width: 450px;
+   
+}
+.airpod-wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+}
+
+.airpod-text{
+    position: absolute;
+    bottom: -400px;
+    left: 40px;
+    color: #122231;
+    font-size: 1.2em;
+}
+
+.fresh{
+    font-weight: 600;
+}
+
+.btn-buy{
+    position: absolute;
+    bottom: -400px;
+    right: 40px;
+    display: flex;
+    gap: 1em;
+}
+
+.btn-learn{
+    padding: 8px 14px;
+    background-color: #122231;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-learn:hover{
+    background-color: #ffffff;
+    color: #122231;
+    border: 1px solid #122231;
+}
+
+.buy{
+    padding: 8px 14px;
+    background-color: #ffffff;
+    color: #122231;
+    text-decoration: none;
+    border: 1px solid #122231;
+    border-radius: 20px;
+}
+
+.buy:hover{
+    background-color: #122231;
+    color: #ffffff;
+    border: none;
 }
